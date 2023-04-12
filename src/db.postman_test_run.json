@@ -1,0 +1,1959 @@
+{
+	"id": "26ddbc17-c17a-4e1d-951b-238e32be6c72",
+	"name": "DigitalBooking API Test",
+	"timestamp": "2023-04-05T18:51:42.324Z",
+	"collection_id": "23270582-66f4bc25-3c49-46dd-9530-53e088ce121b",
+	"folder_id": 0,
+	"environment_id": "23270582-de01800c-3dd1-469d-ac26-e639dfc50479",
+	"totalPass": 56,
+	"totalFail": 6,
+	"results": [
+		{
+			"id": "e692ae9d-9121-44f2-8979-4b26973d087a",
+			"name": "auth",
+			"url": "http://3.145.94.168/auth",
+			"time": 498,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				498
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "803787cb-664f-46e5-92f0-fc87e8b6ce0c",
+			"name": "api/caracteristicas",
+			"url": "http://3.145.94.168/api/caracteristicas",
+			"time": 377,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				377
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "09b74ae7-4eae-4d60-888a-dfedb78988dc",
+			"name": "api/caracteristicas/{id}",
+			"url": "http://3.145.94.168/api/caracteristicas/null",
+			"time": 196,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				196
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "5f0d0b6e-8945-4e81-a38c-b87b982dad38",
+			"name": "api/caracteristicas",
+			"url": "http://3.145.94.168/api/caracteristicas",
+			"time": 203,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				203
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "ec54771a-0ce5-4908-96b4-10f6a0777114",
+			"name": "api/caracteristicas",
+			"url": "http://3.145.94.168/api/caracteristicas",
+			"time": 203,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				203
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "459f37c6-fd71-4ce8-a61d-d1e6e2ec3529",
+			"name": "api/caracteristicas/{id}",
+			"url": "http://3.145.94.168/api/caracteristicas/null",
+			"time": 212,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				212
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "8bc2e400-6dae-493f-96e3-ac48cad2b566",
+			"name": "api/categorias",
+			"url": "http://3.145.94.168/api/categorias",
+			"time": 234,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				234
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a44afcf2-ac09-4298-917a-c7f5bbbcb7ce",
+			"name": "api/carategorias/{id}",
+			"url": "http://3.145.94.168/api/categorias/5",
+			"time": 204,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				204
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "110902f4-337f-4594-8719-c898753bd6eb",
+			"name": "api/categorias/{id}",
+			"url": "http://3.145.94.168/api/categorias/",
+			"time": 205,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				205
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d0539b2d-7836-4f20-8113-9f14642ebda4",
+			"name": "api/categorias",
+			"url": "http://3.145.94.168/api/categorias",
+			"time": 273,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				273
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4cd20c31-1b96-4970-bf62-9e59abd5263c",
+			"name": "api/categorias",
+			"url": "http://3.145.94.168/api/categorias/5",
+			"time": 227,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				227
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0c9b88c1-327b-42f0-b6f2-25044a8c4361",
+			"name": "api/imagenes",
+			"url": "http://3.145.94.168/api/imagenes",
+			"time": 238,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				238
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "7f1c7599-d88f-4794-bbbb-917f903d45e9",
+			"name": "api/imagenes/{id}",
+			"url": "http://3.145.94.168/api/imagenes/193",
+			"time": 210,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				210
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "49caa13c-ef8b-4ee5-a90a-e3cf0ad6f6c3",
+			"name": "api/imagenes",
+			"url": "http://3.145.94.168/api/imagenes",
+			"time": 407,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				407
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cfad9051-d968-4cc6-894f-1e3a269a7c0d",
+			"name": "api/imagenes",
+			"url": "http://3.145.94.168/api/imagenes",
+			"time": 218,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Test para probar el meetodo,no afectando la base de datos, deberia retornar 400": true
+			},
+			"testPassFailCounts": {
+				"Test para probar el meetodo,no afectando la base de datos, deberia retornar 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				218
+			],
+			"allTests": [
+				{
+					"Test para probar el meetodo,no afectando la base de datos, deberia retornar 400": true
+				}
+			]
+		},
+		{
+			"id": "8b92c938-91b9-4f87-a622-a5112884438e",
+			"name": "api/imagenes/{id}",
+			"url": "http://3.145.94.168/api/imagenes/1986",
+			"time": 376,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Unauthorized delete is forbidden": true
+			},
+			"testPassFailCounts": {
+				"Unauthorized delete is forbidden": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				376
+			],
+			"allTests": [
+				{
+					"Unauthorized delete is forbidden": true
+				}
+			]
+		},
+		{
+			"id": "c2de0422-ec48-4d9f-b76b-18fe7bd8947f",
+			"name": "New Like",
+			"url": "http://3.145.94.168/api/likes",
+			"time": 231,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Like creado": true
+			},
+			"testPassFailCounts": {
+				"Like creado": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				231
+			],
+			"allTests": [
+				{
+					"Like creado": true
+				}
+			]
+		},
+		{
+			"id": "425e88e8-1497-4ece-8e5d-6d640a5f6089",
+			"name": "List Likes[Admin]",
+			"url": "http://3.145.94.168/api/likes",
+			"time": 214,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				214
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a80755ab-489f-40ea-9b0c-dda67b966cbb",
+			"name": "List Likes por id[admin]",
+			"url": "http://3.145.94.168/api/likes/25",
+			"time": 205,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				205
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cb6a9965-e7a7-4d26-adf3-27d0a31b10da",
+			"name": "List likes por producto [admin]",
+			"url": "http://3.145.94.168/api/likes/8/25",
+			"time": 367,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				367
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1c2183cf-222d-4431-91f2-cb13ef5beae0",
+			"name": "Delete Like by Id [ADMIN]",
+			"url": "http://3.145.94.168/api/likes/25",
+			"time": 215,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				215
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ef8d1544-13f6-4f44-b6cb-d96b47889c49",
+			"name": "Add Politica[ADMIN]",
+			"url": "http://3.145.94.168/api/politicas",
+			"time": 238,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				238
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "ca9dcae1-7e12-4539-ba4d-9ccab02be60b",
+			"name": "Get politicas",
+			"url": "http://3.145.94.168/api/politicas",
+			"time": 209,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				209
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6ae9ee72-94f8-4cce-9ae1-0776a1db4fc9",
+			"name": "Get politica by ID",
+			"url": "http://3.145.94.168/api/politicas/15",
+			"time": 203,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				203
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4fc3254f-3f06-44fd-bb79-22f09daed24a",
+			"name": "Add politica [Admin]",
+			"url": "http://3.145.94.168/api/politicas",
+			"time": 245,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				245
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "c7516bb5-c54a-4c27-9a48-e0e37e3028c6",
+			"name": "Delete politica [ADMIN]",
+			"url": "http://3.145.94.168/api/politicas/15",
+			"time": 224,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				224
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3afea71a-e4f1-403c-ba75-b31a7fb143c2",
+			"name": "Add Producto [ADMIN]",
+			"url": "http://3.145.94.168/api/productos",
+			"time": 259,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				259
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "04bc380f-6f6f-4a40-b9bb-ef0f6a33932d",
+			"name": "Get productos",
+			"url": "http://3.145.94.168/api/productos",
+			"time": 695,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				695
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a69d6628-f4f3-460f-a86b-c9c7c3340df0",
+			"name": "Get Productos by ID",
+			"url": "http://3.145.94.168/api/productos/25",
+			"time": 216,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				216
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ac20d8fe-189d-4f1c-b540-640e294dc64c",
+			"name": "Get Productos liked by USER[USER||ADMIN]",
+			"url": "http://3.145.94.168/api/productos/usuario/1",
+			"time": 274,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				274
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d6b04945-dee7-41eb-8526-cc02eb3ffd64",
+			"name": "Get Productos by Ubicacion",
+			"url": "http://3.145.94.168/api/productos/ubicacion/15",
+			"time": 232,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				232
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "8b303e60-f4ba-4fbf-bb96-0e53d44134d9",
+			"name": "Get producto por Ciudad",
+			"url": "http://3.145.94.168/api/productos/ubicacion/ciudad/Roma",
+			"time": 237,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				237
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "13fc4c83-f09a-4e78-a70f-e2b3b63bd360",
+			"name": "Get 8 random Productos",
+			"url": "http://3.145.94.168/api/productos/rand",
+			"time": 352,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"La respuesta contiene 8 objetos": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"La respuesta contiene 8 objetos": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				352
+			],
+			"allTests": [
+				{
+					"La respuesta contiene 8 objetos": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cd3c91e0-1202-41ba-85e8-9ada55c86cc9",
+			"name": "Get Productos by Categoria",
+			"url": "http://3.145.94.168/api/productos/categoria/1",
+			"time": 291,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				291
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5dcb07b6-479b-4885-8072-4bc2659aaa12",
+			"name": "Get Productos without Reserva",
+			"url": "http://3.145.94.168/api/productos/disponible",
+			"time": 575,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				575
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "562b354f-9e35-494b-93d1-ab5b04579ec4",
+			"name": "Edit Producto [ADMIN]",
+			"url": "http://3.145.94.168/api/productos",
+			"time": 280,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				280
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "8e697863-1036-47c0-903d-38e104385858",
+			"name": "Delete Producto by ID[ADMIN]",
+			"url": "http://3.145.94.168/api/productos/25",
+			"time": 226,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				226
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "829d1887-8930-454f-8272-889072a612ef",
+			"name": "Put Puntuacion[ADMIN]",
+			"url": "http://3.145.94.168/api/puntuaciones",
+			"time": 234,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				234
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "f08ebd2c-686d-42d6-81a2-d87371198599",
+			"name": "Add new Reserva[ADMIN||USER]",
+			"url": "http://3.145.94.168/api/reservas",
+			"time": 1593,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1593
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "4cbe26e4-fa84-4661-b733-49f56e159182",
+			"name": "Get reservas[ADMIN]",
+			"url": "http://3.145.94.168/api/reservas",
+			"time": 214,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				214
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "87aa0d4e-4ded-4f9d-80e9-6dc807837c20",
+			"name": "Get Reservas by ID[ADMIN||USER]",
+			"url": "http://3.145.94.168/api/reservas/50",
+			"time": 211,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				211
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7ff5bea2-0cf3-4839-8cf4-be6bab6a40df",
+			"name": "GET Reservas by User[ADMIN||USER]",
+			"url": "http://3.145.94.168/api/reservas/usuario/1",
+			"time": 204,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				204
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0cb54a35-c859-41e6-9c56-4ff1bc2098fe",
+			"name": "Edit Reserva[ADMIN||USER]",
+			"url": "http://3.145.94.168/api/reservas",
+			"time": 240,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				240
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "d6349fb2-5bbd-4051-9c5e-8efca57fcf99",
+			"name": "Delete Reserva[ADMIN||USER]",
+			"url": "http://3.145.94.168/api/reservas/50",
+			"time": 232,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				232
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "fbe3a7c5-7307-47a4-a7f1-ceda36afe4fd",
+			"name": "Add Rol[ADMIN]",
+			"url": "http://3.145.94.168/api/roles",
+			"time": 219,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				219
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "03e4efae-b828-4de6-af64-388d00156326",
+			"name": "Listar Roles[ADMIN]",
+			"url": "http://3.145.94.168/api/roles",
+			"time": 220,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				220
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f19d22c1-d42e-4b7c-a4cc-688923483053",
+			"name": "Listar Rol por id [ADMIN]",
+			"url": "http://3.145.94.168/api/roles/3",
+			"time": 207,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				207
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f3e83692-f5c4-4918-bba0-21b03f4bd6bd",
+			"name": "Edit Rol [ADMIN]",
+			"url": "http://3.145.94.168/api/roles",
+			"time": 223,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				223
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "c08ed665-0134-4205-94f2-0329e3a681e2",
+			"name": "Delete Rol by Id [ADMIN]",
+			"url": "http://3.145.94.168/api/roles/3",
+			"time": 231,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				231
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cf7f805c-01f9-476f-a5e3-79bf926750cd",
+			"name": "Add new TiPolitica [ADMIN]",
+			"url": "http://3.145.94.168/api/tipoliticas",
+			"time": 226,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				226
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "dc910030-a99d-4535-85a4-296374e90d0c",
+			"name": "List TiPoliticas",
+			"url": "http://3.145.94.168/api/tipoliticas",
+			"time": 215,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				215
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e16c3993-a703-49c4-aab1-585e92958750",
+			"name": "List TiPolitica por id",
+			"url": "http://3.145.94.168/api/tipoliticas/4",
+			"time": 198,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				198
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b4c7bef5-4d38-441b-bf4c-a1d2280d4cff",
+			"name": "Delete TiPolitica [ADMIN]",
+			"url": "http://3.145.94.168/api/tipoliticas/4",
+			"time": 229,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				229
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b64405b7-483b-445f-9b62-b50b04870f88",
+			"name": "Add Ubicacion [ADMIN]",
+			"url": "http://3.145.94.168/api/ubicaciones",
+			"time": 219,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				219
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "fd85ce9d-9cb3-44f0-8f12-d034f71b20bd",
+			"name": "List Ubicaciones",
+			"url": "http://3.145.94.168/api/ubicaciones",
+			"time": 242,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				242
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ee8226fe-0ab1-4e4b-beff-fabbd5d3faf7",
+			"name": "List Ubicaciones by ID",
+			"url": "http://3.145.94.168/api/ubicaciones/18",
+			"time": 211,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				211
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "fbae50df-0a70-4c48-a65b-f3acb57d1d55",
+			"name": "List ubicaciones por ciudad",
+			"url": "http://3.145.94.168/api/ubicaciones/ciudad/roma",
+			"time": 206,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				206
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4ad4c199-6fdc-411c-829d-5fe3bb787ba3",
+			"name": "Edit Ubicacion [ADMIN]",
+			"url": "http://3.145.94.168/api/ubicaciones",
+			"time": 225,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				225
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "71efbb00-e65d-41a9-a8cd-2c0d0273a50e",
+			"name": "Delete Ubicacion[ADMIN]",
+			"url": "http://3.145.94.168/api/ubicaciones/18",
+			"time": 217,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				217
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0e88ae71-35b7-40ac-b70c-864d9d336198",
+			"name": "Add Usuario Admin [ADMIN]",
+			"url": "http://3.145.94.168/api/usuarios/admin",
+			"time": 1865,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				1865
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "3e738a85-18b9-471b-a090-8f0786cae7c5",
+			"name": "List usuarios [ADMIN]",
+			"url": "http://3.145.94.168/api/usuarios/list",
+			"time": 209,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				209
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4a350093-bbd7-46d2-ac3e-45f2caedcd17",
+			"name": "List Usuario por  Id [ADMIN]",
+			"url": "http://3.145.94.168/api/usuarios/3",
+			"time": 211,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				211
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ccc01953-c426-4520-828e-783eabe1b65f",
+			"name": "Delete Usuario [ADMIN||USER]",
+			"url": "http://3.145.94.168/api/usuarios/12",
+			"time": 231,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				231
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 19001,
+	"collection": {
+		"requests": [
+			{
+				"id": "e692ae9d-9121-44f2-8979-4b26973d087a",
+				"method": "POST"
+			},
+			{
+				"id": "803787cb-664f-46e5-92f0-fc87e8b6ce0c",
+				"method": "POST"
+			},
+			{
+				"id": "09b74ae7-4eae-4d60-888a-dfedb78988dc",
+				"method": "GET"
+			},
+			{
+				"id": "5f0d0b6e-8945-4e81-a38c-b87b982dad38",
+				"method": "PUT"
+			},
+			{
+				"id": "ec54771a-0ce5-4908-96b4-10f6a0777114",
+				"method": "GET"
+			},
+			{
+				"id": "459f37c6-fd71-4ce8-a61d-d1e6e2ec3529",
+				"method": "DELETE"
+			},
+			{
+				"id": "8bc2e400-6dae-493f-96e3-ac48cad2b566",
+				"method": "POST"
+			},
+			{
+				"id": "a44afcf2-ac09-4298-917a-c7f5bbbcb7ce",
+				"method": "GET"
+			},
+			{
+				"id": "110902f4-337f-4594-8719-c898753bd6eb",
+				"method": "GET"
+			},
+			{
+				"id": "d0539b2d-7836-4f20-8113-9f14642ebda4",
+				"method": "PUT"
+			},
+			{
+				"id": "4cd20c31-1b96-4970-bf62-9e59abd5263c",
+				"method": "DELETE"
+			},
+			{
+				"id": "0c9b88c1-327b-42f0-b6f2-25044a8c4361",
+				"method": "POST"
+			},
+			{
+				"id": "7f1c7599-d88f-4794-bbbb-917f903d45e9",
+				"method": "GET"
+			},
+			{
+				"id": "49caa13c-ef8b-4ee5-a90a-e3cf0ad6f6c3",
+				"method": "GET"
+			},
+			{
+				"id": "cfad9051-d968-4cc6-894f-1e3a269a7c0d",
+				"method": "PUT"
+			},
+			{
+				"id": "8b92c938-91b9-4f87-a622-a5112884438e",
+				"method": "DELETE"
+			},
+			{
+				"id": "c2de0422-ec48-4d9f-b76b-18fe7bd8947f",
+				"method": "POST"
+			},
+			{
+				"id": "425e88e8-1497-4ece-8e5d-6d640a5f6089",
+				"method": "GET"
+			},
+			{
+				"id": "a80755ab-489f-40ea-9b0c-dda67b966cbb",
+				"method": "GET"
+			},
+			{
+				"id": "cb6a9965-e7a7-4d26-adf3-27d0a31b10da",
+				"method": "GET"
+			},
+			{
+				"id": "1c2183cf-222d-4431-91f2-cb13ef5beae0",
+				"method": "DELETE"
+			},
+			{
+				"id": "ef8d1544-13f6-4f44-b6cb-d96b47889c49",
+				"method": "POST"
+			},
+			{
+				"id": "ca9dcae1-7e12-4539-ba4d-9ccab02be60b",
+				"method": "GET"
+			},
+			{
+				"id": "6ae9ee72-94f8-4cce-9ae1-0776a1db4fc9",
+				"method": "GET"
+			},
+			{
+				"id": "4fc3254f-3f06-44fd-bb79-22f09daed24a",
+				"method": "PUT"
+			},
+			{
+				"id": "c7516bb5-c54a-4c27-9a48-e0e37e3028c6",
+				"method": "DELETE"
+			},
+			{
+				"id": "3afea71a-e4f1-403c-ba75-b31a7fb143c2",
+				"method": "POST"
+			},
+			{
+				"id": "04bc380f-6f6f-4a40-b9bb-ef0f6a33932d",
+				"method": "GET"
+			},
+			{
+				"id": "a69d6628-f4f3-460f-a86b-c9c7c3340df0",
+				"method": "GET"
+			},
+			{
+				"id": "ac20d8fe-189d-4f1c-b540-640e294dc64c",
+				"method": "GET"
+			},
+			{
+				"id": "d6b04945-dee7-41eb-8526-cc02eb3ffd64",
+				"method": "GET"
+			},
+			{
+				"id": "8b303e60-f4ba-4fbf-bb96-0e53d44134d9",
+				"method": "GET"
+			},
+			{
+				"id": "13fc4c83-f09a-4e78-a70f-e2b3b63bd360",
+				"method": "GET"
+			},
+			{
+				"id": "cd3c91e0-1202-41ba-85e8-9ada55c86cc9",
+				"method": "GET"
+			},
+			{
+				"id": "5dcb07b6-479b-4885-8072-4bc2659aaa12",
+				"method": "POST"
+			},
+			{
+				"id": "562b354f-9e35-494b-93d1-ab5b04579ec4",
+				"method": "PUT"
+			},
+			{
+				"id": "8e697863-1036-47c0-903d-38e104385858",
+				"method": "DELETE"
+			},
+			{
+				"id": "829d1887-8930-454f-8272-889072a612ef",
+				"method": "POST"
+			},
+			{
+				"id": "f08ebd2c-686d-42d6-81a2-d87371198599",
+				"method": "POST"
+			},
+			{
+				"id": "4cbe26e4-fa84-4661-b733-49f56e159182",
+				"method": "GET"
+			},
+			{
+				"id": "87aa0d4e-4ded-4f9d-80e9-6dc807837c20",
+				"method": "GET"
+			},
+			{
+				"id": "7ff5bea2-0cf3-4839-8cf4-be6bab6a40df",
+				"method": "GET"
+			},
+			{
+				"id": "0cb54a35-c859-41e6-9c56-4ff1bc2098fe",
+				"method": "PUT"
+			},
+			{
+				"id": "d6349fb2-5bbd-4051-9c5e-8efca57fcf99",
+				"method": "DELETE"
+			},
+			{
+				"id": "fbe3a7c5-7307-47a4-a7f1-ceda36afe4fd",
+				"method": "POST"
+			},
+			{
+				"id": "03e4efae-b828-4de6-af64-388d00156326",
+				"method": "GET"
+			},
+			{
+				"id": "f19d22c1-d42e-4b7c-a4cc-688923483053",
+				"method": "GET"
+			},
+			{
+				"id": "f3e83692-f5c4-4918-bba0-21b03f4bd6bd",
+				"method": "PUT"
+			},
+			{
+				"id": "c08ed665-0134-4205-94f2-0329e3a681e2",
+				"method": "DELETE"
+			},
+			{
+				"id": "cf7f805c-01f9-476f-a5e3-79bf926750cd",
+				"method": "POST"
+			},
+			{
+				"id": "dc910030-a99d-4535-85a4-296374e90d0c",
+				"method": "GET"
+			},
+			{
+				"id": "e16c3993-a703-49c4-aab1-585e92958750",
+				"method": "GET"
+			},
+			{
+				"id": "b4c7bef5-4d38-441b-bf4c-a1d2280d4cff",
+				"method": "DELETE"
+			},
+			{
+				"id": "b64405b7-483b-445f-9b62-b50b04870f88",
+				"method": "POST"
+			},
+			{
+				"id": "fd85ce9d-9cb3-44f0-8f12-d034f71b20bd",
+				"method": "GET"
+			},
+			{
+				"id": "ee8226fe-0ab1-4e4b-beff-fabbd5d3faf7",
+				"method": "GET"
+			},
+			{
+				"id": "fbae50df-0a70-4c48-a65b-f3acb57d1d55",
+				"method": "GET"
+			},
+			{
+				"id": "4ad4c199-6fdc-411c-829d-5fe3bb787ba3",
+				"method": "PUT"
+			},
+			{
+				"id": "71efbb00-e65d-41a9-a8cd-2c0d0273a50e",
+				"method": "DELETE"
+			},
+			{
+				"id": "0e88ae71-35b7-40ac-b70c-864d9d336198",
+				"method": "POST"
+			},
+			{
+				"id": "3e738a85-18b9-471b-a090-8f0786cae7c5",
+				"method": "GET"
+			},
+			{
+				"id": "4a350093-bbd7-46d2-ac3e-45f2caedcd17",
+				"method": "GET"
+			},
+			{
+				"id": "ccc01953-c426-4520-828e-783eabe1b65f",
+				"method": "DELETE"
+			}
+		]
+	}
+}
