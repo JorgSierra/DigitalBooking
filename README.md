@@ -1,4 +1,4 @@
-# <img src="src/logoDb.png"  width="50" height="50"> DigitalBooking
+# <img src="src/logoDb.png"  width="63" height="50"> DigitalBooking
 
 This project consisted of applying all the tools learned through the Digital House's course: Certified Tech Developer (CTD). For the development stages of this project, the Scrum framework was the backbone guiding the process, where every team member contributed with their strong skills in the areas needed.
 
