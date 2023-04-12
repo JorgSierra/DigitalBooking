@@ -4,9 +4,7 @@ This project consisted of applying all the tools learned through the Digital Hou
 
 This **web application** offers an online reservation service for hotels, apartments, hostels, and  B&B. Through this channel, we connect guests with hosts enabling the guest to reserve any of the mentioned services from anywhere to everywhere around the work at a click distance.
 
->Este proyecto consistió en aplicar todas las herramientas aprendidas a lo largo del curso Certified Tech Developer (CTD) de Digital House. Para las etapas de desarrollo de este proyecto, fue utilizado Scrum como marco de trabajo y eje central guiando el proceso, donde todos los miembros del equipo contribuyeron con sus habilidades más fuertes en las áreas donde fueron necesitadas.
-
-Esta **aplicación web** ofrece un servicio de reservas online para hoteles, apartamentos, hostels y B&B. Atreves de este canal, conectamos a huéspedes con anfitriones habilitando los huéspedes a reservar en cualquiera de los servicios mencionados, desde y hacia cualquier lugar alrededor del mundo a la distancia de un clic.
+>Este proyecto consistió en aplicar todas las herramientas aprendidas a lo largo del curso Certified Tech Developer (CTD) de Digital House. Para las etapas de desarrollo de este proyecto, fue utilizado Scrum como marco de trabajo y eje central guiando el proceso, donde todos los miembros del equipo contribuyeron con sus habilidades más fuertes en las áreas donde fueron necesitadas. Esta **aplicación web** ofrece un servicio de reservas online para hoteles, apartamentos, hostels y B&B. Atreves de este canal, conectamos a huéspedes con anfitriones habilitando los huéspedes a reservar en cualquiera de los servicios mencionados, desde y hacia cualquier lugar alrededor del mundo a la distancia de un clic.
 
 ## Team
 This section will describe the roles performed by every team member and shows their contributions to this project.
