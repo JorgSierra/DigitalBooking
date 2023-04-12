@@ -8,7 +8,7 @@ This **web application** offers an online reservation service for hotels, apartm
 
 ## Try the app
 The application is hosted in a free tier account on AWS. If the links are broken please let us know by reporting an issue.
->La aplicación esta hosteada en una cuenta gratuita en AWS. Si los links estan rotos por favor dejanos saber reportando un issue.
+>La aplicación esta hosteada en una cuenta gratuita de AWS. Si los links estan rotos por favor dejanos saber reportando un issue.
 
 **Front-end app**
 
