@@ -1,6 +1,7 @@
 # ![DBlogo]() DigitalBooking
 
 This project consisted of applying all the tools learned through the Digital House's course: Certified Tech Developer (CTD). For the development stages of this project, the Scrum framework was the backbone guiding the process, where every team member contributed with their strong skills in the areas needed.
+
 This **web application** offers an online reservation service for hotels, apartments, hostels, and  B&B. Through this channel, we connect guests with hosts enabling the guest to reserve any of the mentioned services from anywhere to everywhere around the work at a click distance.
 
 >Este proyecto consistió en aplicar todas las herramientas aprendidas a lo largo del curso Certified Tech Developer (CTD) de Digital House. Para las etapas de desarrollo de este proyecto, fue utilizado Scrum como marco de trabajo y eje central guiando el proceso, donde todos los miembros del equipo contribuyeron con sus habilidades más fuertes en las áreas donde fueron necesitadas.
