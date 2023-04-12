@@ -164,5 +164,11 @@ There was a communication problem during the end of the second and third sprints
 		- Frontend : React testing library y Jest; API Testing:Postman y Swagger.
 
 # Testing final report
-Click on the image to be redirected to the report.
+Click on the image to see the report.
+>Da clic en la imagen para ver el informe.
+
+<div align="center">	
+
 [<img src="src/TestingReportCover.png">](src/InformeTesting.pdf)
+	
+</div>
