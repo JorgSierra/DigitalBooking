@@ -15,6 +15,8 @@ This section will describe the roles performed by every team member and shows th
 Performed design and implementation of AWS network settings. Contributed to database creation and management, and implementation of GitLab CI/CD.
 >Realizó diseño e implementación de redes en AWS. Contribuyó en la creación y administración de la base de datos e implementando GitLab CI/CD.
 
+<div align="center">
+	
 | Role | Contribution |
 |--|--|
 | Front-end | <span>:white_circle: :white_circle: :white_circle:</span> |
@@ -22,12 +24,16 @@ Performed design and implementation of AWS network settings. Contributed to data
 | Architecture | <span>:large_blue_circle: :large_blue_circle: :large_blue_circle:</span> |
 | Testing / QA | <span>:white_circle: :white_circle: :white_circle:</span> |
 | Database | <span>:large_blue_circle: :large_blue_circle: :large_blue_circle:</span> |
+	
+</div>
 
 **Gaston Innamorato**
 
 Performed design and implementation of React front-end. Contributed to creation of back-end features.
 >Realizó diseño e implementación de front-end desarrollado en React. Contribuyó en la creación de funciones del back-end.
 
+<div align="center">
+	
 | Role | Contribution |
 |--|--|
 | Fron-end | <span>:large_blue_circle: :large_blue_circle: :large_blue_circle:</span> |
@@ -35,12 +41,16 @@ Performed design and implementation of React front-end. Contributed to creation 
 | Architecture | <span>:white_circle: :white_circle: :white_circle:</span> |
 | Testing / QA | <span>:white_circle: :white_circle: :white_circle:</span> |
 | Database | <span>:large_blue_circle: :white_circle: :white_circle:</span> |
+	
+</div>
 
 **Mónica Muñoz**
 
 Performed design and implementation of React front-end.
 >Realizó diseño e implementación de front-end desarrollado en React.
 
+<div align="center">
+	
 | Role | Contribution |
 |--|--|
 | Front-end | <span> :large_blue_circle: :large_blue_circle: :large_blue_circle:</span> |
@@ -48,12 +58,16 @@ Performed design and implementation of React front-end.
 | Architecture | <span>:white_circle: :white_circle: :white_circle:</span> |
 | Testing / QA | <span>:white_circle: :white_circle: :white_circle:</span> |
 | Database | <span>:white_circle: :white_circle: :white_circle:</span> |
+	
+</div>
 
 **Jorge Sierra**
 
 Performed design and implementation of back-end, database, GitLab CI/CD, and Dockerizing. Contributed to implementing AWS network settings and back-end testing.
 >Realizó diseño e implementación de back-end, base de datos, GitLab CI/CD y dockerizado. Contribuyo a la implementación de configuración de red en AWS y testeo del back-end.
 
+<div align="center">	
+	
 | Role | Contribution |
 |--|--|
 | Front-end | <span>:white_circle: :white_circle: :white_circle:</span> |
@@ -61,12 +75,16 @@ Performed design and implementation of back-end, database, GitLab CI/CD, and Doc
 | Architecture | <span>:large_blue_circle: :large_blue_circle: :large_blue_circle:</span> |
 | Testing / QA | <span>:large_blue_circle: :white_circle: :white_circle:</span> |
 | Database | <span>:large_blue_circle: :large_blue_circle: :large_blue_circle:</span> |
+	
+</div>
 
 **Braian Redmond**
 
 Performed design and implementation of manual and automated testing suites for both front-end and back-end. Reported and documented test results.
 >Realizó diseño e implementación de test suites manuales y automatizadas para front-end y back-end. Reporto y documento los resultados de los test realizados.
 
+<div align="center">	
+	
 | Role | Contribution |
 |--|--|
 | Front-end | <span>:large_blue_circle: :white_circle: :white_circle:</span> |
@@ -74,12 +92,16 @@ Performed design and implementation of manual and automated testing suites for b
 | Architecture | <span>:white_circle: :white_circle: :white_circle:</span> |
 | Testing / QA | <span>:large_blue_circle: :large_blue_circle: :large_blue_circle:</span> |
 | Database | <span>:white_circle: :white_circle: :white_circle:</span> |
-
+	
+</div>
+	
 **Víctor Valencia**
 
 Performed design and implementation of back-end and database. Contributed to back-end testing.
 >Realizó diseño e implementación de back-end y base de datos. Contribuyo al testeo del back-end.
 
+<div align="center">
+	
 | Role | Contribution |
 |--|--|
 | Front End | <span>:white_circle: :white_circle: :white_circle:</span> |
@@ -87,7 +109,9 @@ Performed design and implementation of back-end and database. Contributed to bac
 | Architecture | <span>:white_circle: :white_circle: :white_circle:</span> |
 | Testing / QA | <span>:large_blue_circle: :white_circle: :white_circle:</span> |
 | Database | <span>:large_blue_circle: :large_blue_circle: :large_blue_circle:</span> |
-
+	
+</div>
+	
 # Working methodology
 At the beginning of the project, we analyzed the requirements, visualized tasks, and identified the comfort areas where each member could develop. We got organized according to recognized strong points where we maximized team productivity.
 In the areas where more than one team member was involved, feature progress, challenges, and next steps were discussed in a daily meeting. We agreed to communicate when a branch was modified and pushed to the repository.
