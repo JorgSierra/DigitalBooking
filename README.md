@@ -106,8 +106,12 @@ El flujo de trabajo utilizado en GitLab para llevar el proyecto de manera organi
 
 # Project logbook
 1. First Sprint: This sprint demonstrated the skills of all team members and helped build confidence in each member's capabilities. Where the team works in an organized and collaborative way using daily meetings as a working method. We can summarize this as a successful sprint where a good work environment was generated.
+	> To sta
 2. Second Sprint: In the sprint retrospective, teamwork and communication were highlighted by all team members. The work methodology was similar to the first sprint. The entire team noted exceptional commitment to delivering an excellent final product. Communication was weaker compared to the first sprint leading to a loss of the general picture of the project and some unfinished tasks.
+	> To sta
 3. Third Sprint: Due to the lack of communication between areas, task damming happened in this sprint. While handling the carry-over from cloud architecture and CI/CD, back-end endpoints, security, and JWT implementation delayed the front-end development. This situation required extra effort from all team members to arrive at a functional product to display at the end of this sprint.
+	> To sta
+4. Forth Sprint:
 
 ## Team strengths
 ## Team improvement opportunities
