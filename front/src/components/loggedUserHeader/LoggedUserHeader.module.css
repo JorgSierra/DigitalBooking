@@ -1,0 +1,136 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 1.5rem;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.flex a {
+    padding-right: 1rem;
+}
+
+.userName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.initials {
+    left: 14%;
+    top: 12%;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding: 7px 7px 0 3px;
+    height: 45px;
+    width: 45px;
+    background-color: var(--darkGrey);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+/*.user {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    background-color: var(--darkGrey);
+    border-radius: 50%;
+    display: inline-block;
+}*/
+
+.userTextTop,
+.userTextBottom {
+    color: var(--darkGrey);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
+.userTextTop {
+    opacity: 0.6;
+}
+
+.rightText {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: start;
+}
+
+.adminButton {
+    background-color: white;
+    color: var(--orange);
+    border: solid 1.5px var(--orange);
+    padding: 0.5rem 1.1rem;
+    border-radius: 4px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+}
+
+@media screen and (max-width: 830px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+    .buttonContainer {
+        gap: 10px;
+    }
+    .initials {
+        padding: 9px 4px 0 3px;
+    }
+    .userTextBottom {
+        text-align: right;
+    }
+    .flex .rightText {
+        align-items: flex-end;
+    }
+    .flex svg {
+        display: none;
+    }
+    .flex a {
+        background-color: white;
+        color: black;
+    }
+    .userName {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .menu {
+        display: none
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .buttonContainer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .buttonContainer {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .flex div section:nth-child(2) a button {
+        background-color: orange;
+        color: white;
+    }
+}

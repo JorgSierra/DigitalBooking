@@ -1,0 +1,12 @@
+.buttonsBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin: 1rem 3vw;
+}
+
+.buttonsBar .shareContainer {
+    display: flex;
+    flex-direction: row;
+}

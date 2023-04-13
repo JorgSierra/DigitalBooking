@@ -1,0 +1,24 @@
+.mapContainer {
+    height: 30vw;
+    margin-inline: 3vw;
+}
+
+.map {
+    border-radius: 0.865rem;
+}
+
+@media screen and (max-width: 900px) {
+    .mapContainer {
+        height: 50vw;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .mapContainer {
+        margin-inline: 0;
+        height: 62vw;
+    }
+    .map {
+        border-radius: 0;
+    }
+}

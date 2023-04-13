@@ -1,0 +1,24 @@
+.backgroundContainer {
+    background-color: #ECECEF;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.pageButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.pageButtons button {
+    width: 30px;
+}
+
+.pageButtons button.active {
+    background-color: var(--orange);
+    color: white;
+}

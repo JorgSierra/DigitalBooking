@@ -1,0 +1,22 @@
+.alertContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.2);
+    padding: 0.9rem;
+    box-shadow: rgba(0, 0, 0, 0.25)0px 1px 5px;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.alertContainer p {
+    color: rgb(218 26 26);
+    font-size: 1rem;
+    opacity: 1;
+}
+
+@media (max-width: 600px) {
+    .alertContainer {
+        width: 80%;
+    }
+}

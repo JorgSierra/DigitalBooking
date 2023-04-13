@@ -1,0 +1,38 @@
+.stack {
+    top: 92%;
+    right: 10%;
+    position: absolute;
+    width: 10%;
+}
+
+@media (max-width: 2200px) {
+    .stack {
+        right: 6%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .stack {
+        right: 9%;
+    }
+}
+
+@media (max-width: 1250px) {
+    .stack {
+        right: 12%;
+    }
+}
+
+@media (max-width: 1030px) {
+    .stack {
+        right: 16%;
+        width: 14%;
+    }
+}
+
+@media (max-width: 850px) {
+    .stack {
+        right: 16%;
+        width: 14%;
+    }
+}

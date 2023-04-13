@@ -1,0 +1,39 @@
+.blockAmenitiesContainer {
+    margin-bottom: 3.5rem;
+    width: auto;
+}
+.blockAmenitiesContainer hr {
+    border: 1px solid var(--orange);
+}
+
+
+.gridContainer {
+    margin-top: 3.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.title,
+.gridContainer {
+    margin-inline: 3vw;
+}
+
+.title {
+    margin-bottom: 1rem;
+    color: var(--darkGrey)
+}
+
+@media screen and (max-width: 900px) {
+    .gridContainer {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .gridContainer {
+        margin-top: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

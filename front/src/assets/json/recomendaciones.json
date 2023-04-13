@@ -1,0 +1,83 @@
+[
+    {
+        "Id": 0,
+        "Crimg": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "Category": "Hoteles",
+        "CategorySingular": "Hotel",
+        "StarRating": 5,
+        "Rating": 10,
+        "Title": "Royal Dome Hotel",
+        "Location": "Montevideo",
+        "Description": "Un hotel es un edificio planificado y acondicionado para otorgar servicios de alojamiento a las personas y que permite a los visitantes sus desplazamientos."
+    },
+    {
+        "Crimg": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "Category": "Hoteles",
+        "CategorySingular": "Hotel",
+        "StarRating": 3,
+        "Rating": 7,
+        "Title": "Felicity Hotel",
+        "Location": "Montevideo",
+        "Description": "Un hotel es un edificio planificado y acondicionado para otorgar servicios de alojamiento a las personas y que permite a los visitantes sus desplazamientos."
+    },
+    {
+        "Crimg": "https://images.unsplash.com/photo-1520277739336-7bf67edfa768?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+        "Category": "Hostels",
+        "CategorySingular": "Hostel",
+        "StarRating": 4,
+        "Rating": 8,
+        "Title": "Jade Isle",
+        "Location": "Montevideo",
+        "Description": "Un hostel es un tipo de alojamiento económico en el que poder compartir experiencias sociales."
+    },
+    {
+        "Crimg": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+        "Category": "Hostels",
+        "CategorySingular": "Hostel",
+        "StarRating": 4,
+        "Rating": 9,
+        "Title": "Vanilla Hostel",
+        "Location": "Montevideo",
+        "Description": "Un hostel es un tipo de alojamiento económico en el que poder compartir experiencias sociales."
+    },
+    {
+        "Crimg": "https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "Category": "Departamentos",
+        "CategorySingular": "Departamento",
+        "StarRating": 4,
+        "Rating": 8,
+        "Title": "Panorama",
+        "Location": "Montevideo",
+        "Description": "Parte en que está dividido un recinto, local u otro espacio mediante paredes u otra separación."
+    },
+    {
+        "Crimg": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+        "Category": "Departamentos",
+        "CategorySingular": "Departamento",
+        "StarRating": 4,
+        "Rating": 9,
+        "Title": "Viridian Lagoon",
+        "Location": "Montevideo",
+        "Description": "Parte en que está dividido un recinto, local u otro espacio mediante paredes u otra separación."
+    },
+    {
+        "Crimg": "https://images.unsplash.com/photo-1574431304516-e704cf323046?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=648&q=80",
+        "Category": "Bed and Breakfast",
+        "CategorySingular": "B&B",
+        "StarRating": 4,
+        "Rating": 9,
+        "Title": "Pacific Mill",
+        "Location": "Montevideo",
+        "Description": "Un bed and breakfast es un tipo de alojamiento sencillo en una casa o residencia privada, que ofrecen alojamiento barato y un desayuno."
+    },
+    {
+        "Crimg": "https://images.unsplash.com/photo-1534706931367-6263e604581f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "Category": "Bed and Breakfast",
+        "CategorySingular": "B&B",
+        "StarRating": 4,
+        "Rating": 8,
+        "Title": "Holiday Inn",
+        "Location": "Montevideo",
+        "Description": "Un bed and breakfast es un tipo de alojamiento sencillo en una casa o residencia privada, que ofrecen alojamiento barato y un desayuno."
+    }
+]

@@ -1,0 +1,12 @@
+.descriptionContainer {
+    margin: 2rem 3vw;
+}
+
+.title {
+    margin-bottom: 1rem;
+    color: var(--darkGrey);
+}
+
+.text {
+    line-height: 1.6rem;
+}

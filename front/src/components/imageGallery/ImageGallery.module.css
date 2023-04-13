@@ -1,0 +1,25 @@
+.btn {
+    position: absolute;
+    background: none;
+    color: white;
+    border: none;
+    padding: 0;
+    font-weight: 700;
+    text-decoration: underline;
+    bottom: 1vw;
+    right: 4vw;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.btn:hover {
+    filter: brightness(0.8);
+}
+
+.lightbox :global(.yarl__container) {
+    background-color: rgba(0, 0, 0, .97);
+}
+
+.lightbox :global(.yarl__slide_image) {
+    border-radius: 0.865rem;
+}

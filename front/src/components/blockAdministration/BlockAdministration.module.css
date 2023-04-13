@@ -1,0 +1,10 @@
+.adminBlock .formProductContainer {
+    background-color: var(--lightGrey);
+    padding: 1rem 3vw;
+}
+
+.adminBlock .formProductContainer h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}

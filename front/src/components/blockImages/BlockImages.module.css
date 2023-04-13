@@ -1,0 +1,35 @@
+.blockContainer {
+    position: relative;
+}
+
+.gridContainer {
+    margin-inline: 3vw;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 15vw;
+    gap: 10px;
+}
+
+.gridContainer>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.625rem;
+}
+
+.gridContainer>img:hover {
+    transform: scale(1.01);
+}
+
+.gridContainer>img:nth-child(5) {
+    filter: brightness(0.7)
+}
+
+.imageGridCol2 {
+    grid-column: span 2;
+}
+
+.imageGridRow2 {
+    grid-row: span 2;
+}

@@ -1,0 +1,41 @@
+.iconDiv {
+    background-color: white;
+    height: 3rem;
+    border-radius: 5px 5px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.inputCalendar {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 3rem;
+}
+
+/* ---------------------tablet------------------- */
+
+@media screen and (max-width: 850px) {
+
+    .inputCalendar {
+        width: 100%;
+    }
+}
+
+/* -------------------mobile------------------------ */
+
+@media (max-width: 600px) {
+
+    .inputCalendar {
+        width: 100%;
+    }
+
+    .iconDiv {
+        width: 100%;
+    }
+
+}

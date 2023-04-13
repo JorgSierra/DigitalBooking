@@ -1,0 +1,11 @@
+.adminBlock {
+    flex-grow: 1;
+    background-color: var(--lightGrey);
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 3vw 0;
+    ;
+}

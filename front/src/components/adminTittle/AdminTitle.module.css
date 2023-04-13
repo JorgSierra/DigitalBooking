@@ -1,0 +1,17 @@
+.titleContainer {
+    background-color: var(--darkGrey);
+    color: white;
+    padding: 1rem 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titleContainer p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.icon:hover {
+    filter: brightness(0.8);
+}

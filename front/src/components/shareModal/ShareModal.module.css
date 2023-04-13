@@ -1,0 +1,51 @@
+.shareModalContainer {
+    /* background-color: white; */
+    min-width: 14rem;
+    max-width: 23rem;
+    height: auto;
+    z-index: 900;
+    border-radius: 8px;
+    box-shadow: 0 1rem 2.5rem var(--darkGrey);
+    padding: 2rem;
+    margin: 2rem;
+    flex-direction: column;
+    position: absolute;
+    left: 0vw;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.shareModalContainer h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.shareModalContainer p {
+    font-size: 0.8;
+    font-weight: 100;
+    color: white;
+}
+
+.shareModalContainer .media {
+    padding: 1.5rem 0;
+    justify-items: center;
+}
+
+.shareModalContainer .media svg {
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+}
+
+.shareModalContainer .cancelButton {
+    background-color: var(--orange);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 2.5rem;
+    width: 100%;
+    font-size: 1rem;
+}

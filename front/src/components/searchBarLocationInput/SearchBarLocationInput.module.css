@@ -1,0 +1,52 @@
+.iconDiv {
+    background-color: white;
+    height: 3rem;
+    border-radius: 5px 5px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.inputLocation {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 3rem;
+}
+
+.inputLocation:hover {
+    transform: scale(1.01);
+}
+
+
+/* ---------------------tablet------------------- */
+
+@media screen and (max-width: 850px) {
+    .inputLocation {
+        width: 100%;
+    }
+}
+
+
+/* -------------------mobile------------------------ */
+
+@media (max-width: 600px) {
+    .inputLocation {
+        width: 100%;
+    }
+    .iconDiv {
+        width: 100%;
+    }
+}
+
+
+/* --------big screens------------------------------------ */
+
+@media (min-width:1441px) {
+    input {
+        font-size: 1.2rem;
+    }
+}

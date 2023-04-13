@@ -1,0 +1,130 @@
+.mantine-DatePickerInput-root {
+    width: 100%;
+    max-width: none;
+    min-height: none;
+    box-shadow: none;
+}
+
+.mantine-DatePickerInput-input {
+    border: none;
+    font-size: 1rem;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.mantine-Popover-dropdown {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 1.5rem;
+}
+
+.mantine-MonthLevelGroup-monthLevelGroup {
+    gap: 1rem;
+}
+
+.mantine-UnstyledButton-root,
+.mantine-101mdw0[data-selected],
+.mantine-7yisjr[data-selected],
+.mantine-101mdw0[data-first-in-range],
+.mantine-7yisjr[data-first-in-range],
+.mantine-101mdw0[data-in-range],
+.mantine-7yisjr[data-in-range],
+.mantine-101mdw0[data-last-in-range],
+.mantine-7yisjr[data-last-in-range] {
+    border-radius: 50%;
+}
+
+.mantine-101mdw0[data-selected],
+.mantine-101mdw0[data-first-in-range],
+.mantine-101mdw0[data-last-in-range],
+.mantine-7yisjr[data-selected],
+.mantine-7yisjr[data-first-in-range],
+.mantine-7yisjr[data-last-in-range] {
+    background-color: var(--orange);
+}
+
+.mantine-101mdw0[data-weekend],
+.mantine-7yisjr[data-weekend] {
+    color: black;
+}
+
+
+/* ----------media------------------------- */
+
+@media (max-width: 1440px) {
+    .mantine-Popover-dropdown {
+        left: 502px !important;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .mantine-Popover-dropdown {
+        left: 302px !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .mantine-Popover-dropdown {
+        left: 130px !important;
+    }
+}
+
+@media (max-width: 840px) {
+    .mantine-Popover-dropdown {
+        left: 22px !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .mantine-Popover-dropdown {
+        left: -2px !important;
+        padding: 1rem;
+    }
+}
+
+
+/* ------------media mobile---------- */
+
+@media (max-width: 600px) {
+    .mantine-Popover-dropdown {
+        left: 55px !important;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .mantine-Popover-dropdown {
+        left: 45px !important;
+    }
+}
+
+@media (max-width: 370px) {
+    .mantine-Popover-dropdown {
+        left: 8px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .mantine-Popover-dropdown {
+        padding: 0rem;
+        left: 10px !important;
+    }
+}
+
+
+/* -----------media big-screens----------- */
+
+@media (min-width: 1441px) {
+    .mantine-Popover-dropdown {
+        padding: 4rem;
+        left: 30% !important;
+    }
+}
+
+@media (min-width: 1770px) {
+    .mantine-Popover-dropdown {
+        padding: 4rem;
+        left: 47% !important;
+    }
+}

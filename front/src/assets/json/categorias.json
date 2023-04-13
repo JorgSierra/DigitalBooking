@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "titulo": "Hoteles",
+        "descripcion": "Un hotel es un edificio planificado y acondicionado para otorgar servicios de alojamiento a las personas y que permite a los visitantes sus desplazamientos.",
+        "url_imagen": "https://images.unsplash.com/photo-1517840901100-8179e982acb7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870%27"
+    },
+    {
+        "id": 2,
+        "titulo": "Hostels",
+        "descripcion": "Un hostel es un tipo de alojamiento económico en el que poder compartir experiencias sociales.",
+        "url_imagen": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+    },
+    {
+        "id": 3,
+        "titulo": "Departamentos",
+        "descripcion": "Parte en que está dividido un recinto, local u otro espacio mediante paredes u otra separación.",
+        "url_imagen": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80"
+    },
+    {
+        "id": 4,
+        "titulo": "Bed and Breakfast",
+        "descripcion": "Un bed and breakfast es un tipo de alojamiento sencillo en una casa o residencia privada, que ofrecen alojamiento barato y un desayuno.",
+        "url_imagen": "https://images.unsplash.com/photo-1622572136755-ee3f2628477e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=754&q=80"
+    }
+]

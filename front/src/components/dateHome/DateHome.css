@@ -1,0 +1,82 @@
+#dateHome {
+    width: 100%;
+}
+
+#dateHome .custom-input {
+    width: 100%;
+    border-radius: 5px !important;
+    padding-left: 1rem !important;
+}
+
+#dateHome .date-calendar .rmdp-week-day,
+#dateHome .date-calendar .rmdp-day {
+    width: 50px;
+    height: 50px;
+}
+
+#dateHome .rmdp-day span,
+#dateHome .date-calendar .rmdp-week-day,
+#dateHome .rmdp-header-values span {
+    font-size: 0.8rem !important;
+}
+
+#dateHome .custom-datePicker.rmdp-wrapper,
+#dateHome .rmdp-container .custom-datePicker.ep-arrow::after {
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+#dateHome .custom-datePicker .rmdp-day-picker {
+    gap: 2rem;
+}
+
+#dateHome .custom-datePicker .rmdp-week-day {
+    color: black;
+}
+
+#dateHome .custom-datePicker .rmdp-range {
+    color: white;
+    background-color: var(--orange);
+    border-radius: 50%;
+}
+
+#dateHome .custom-datePicker .rmdp-day.rmdp-today span {
+    background-color: var(--lightGrey) !important;
+    color: black !important;
+}
+
+#dateHome .custom-datePicker .rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden) span:hover {
+    background-color: var(--orange);
+    color: #fff;
+}
+
+#dateHome .custom-datePicker .rmdp-arrow-container {
+    color: white !important;
+    height: 2rem;
+    width: 2rem;
+}
+
+#dateHome .custom-datePicker .rmdp-arrow,
+#dateHome .custom-datePicker .rmdp-right i,
+#dateHome .custom-datePicker .rmdp-right i {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    height: 0.7rem;
+    width: 0.7rem;
+    margin-top: 10px;
+}
+
+#dateHome .custom-datePicker .btnSubmit {
+    width: 100%;
+    background-color: var(--orange);
+    color: white;
+    border: 1px solid var(--orange);
+    padding: 0.3rem;
+    border-radius: 4px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+#dateHome .custom-datePicker .btnSubmit:hover {
+    filter: brightness(1.2);
+}

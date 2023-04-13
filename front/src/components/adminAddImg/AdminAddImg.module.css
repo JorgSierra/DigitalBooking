@@ -1,0 +1,56 @@
+.addContainer {
+    background-color: var(--lightGrey);
+    border-radius: 4px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    margin: 0 0 1rem;
+}
+
+.addContainer:hover {
+    transform: scale(1.01);
+}
+
+.addContainer .formInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+.addContainer .formInfo .formDivisions,
+.addContainer .formInfo .formDivisionsTitle {
+    display: flex;
+    flex-direction: column;
+    /* padding: 0.7rem 0; */
+    gap: 0.3rem;
+    /* width: 50%; */
+    font-size: 0.7rem
+}
+
+.addContainer .formInfo .formDivisions input,
+.addContainer .formInfo .formDivisionsTitle input {
+    font-weight: 700;
+    height: 2.5rem;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    padding-left: 0.5rem;
+}
+
+.addContainer .formInfo .Btn {
+    height: 2.5rem;
+    width: 2.5rem;
+    border: none;
+}
+
+
+/* ------------------media------------------------ */
+
+@media (max-width:600px) {
+    .addContainer .formInfo .formDivisionsTitle {
+        display: none;
+    }
+    .addContainer .formInfo .formDivisions {
+        width: 90% !important;
+    }
+}

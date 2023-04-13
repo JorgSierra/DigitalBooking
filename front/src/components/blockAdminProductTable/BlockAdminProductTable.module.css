@@ -1,0 +1,23 @@
+.adminBlock {
+    flex-grow: 1;
+    background-color: var(--lightGrey);
+}
+
+.adminBlock .link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem 3vw 0 !important;
+    font-weight: bold;
+    color: var(--orange);
+}
+
+.adminBlock .link:hover {
+    filter: brightness(1.5);
+}
+
+.adminBlock .productsTable {
+    padding: 1rem 3vw;
+    height: 100%;
+}

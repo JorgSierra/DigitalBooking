@@ -1,0 +1,13 @@
+ .toFavButton {
+     background-color: white;
+     color: var(--orange);
+     border: solid 1.5px var(--orange);
+     padding: 0.5rem 1rem;
+     border-radius: 4px;
+     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+     font-weight: 700;
+ }
+ 
+ .toFavButton:hover {
+     filter: brightness(1.2);
+ }
