@@ -15,16 +15,16 @@ Deploying <code>Vite+React</code> app to github pages:
     "deploy": "gh-pages -d dist",
     ```
 
-3. In the <code>vite.config.js</code> file add before <code>"plugins: [react()],</code>:
+3. In the <code>vite.config.js</code> file add before <code>plugins: [react()],</code>:
 
     ```js
     base: "DigitalBooking",
     ```
     
-4. Push to repository.
-
-5. Even if using yarn as package manager. In the terminal on the front folder run:
+4. Even if using yarn as package manager. In the terminal on the front folder run:
 
     ```bash
     npm run deploy
     ```
+    
+**To update app deployment:** run the <code>npm run deploy</code> command again.
