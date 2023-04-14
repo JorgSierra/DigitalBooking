@@ -21,10 +21,10 @@ Deploying <code>Vite+React</code> app to github pages:
     base: "DigitalBooking",
     ```
     
-4. Push to repository.
-
-5. Even if using yarn as package manager. In the terminal on the front folder run:
+4. Even if using yarn as package manager. In the terminal on the front folder run:
 
     ```bash
     npm run deploy
     ```
+    
+**To update app deployment:** run the <code>npm run deploy</code> command again.
