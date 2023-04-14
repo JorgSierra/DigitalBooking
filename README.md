@@ -7,12 +7,16 @@ This **web application** offers an online reservation service for hotels, apartm
 >Este proyecto consistió en aplicar todas las herramientas aprendidas a lo largo del curso Certified Tech Developer (CTD) de Digital House. Para las etapas de desarrollo de este proyecto, fue utilizado Scrum como marco de trabajo y eje central guiando el proceso, donde todos los miembros del equipo contribuyeron con sus habilidades más fuertes en las áreas donde fueron necesitadas. Esta **aplicación web** ofrece un servicio de reservas online para hoteles, apartamentos, hostels y B&B. Atreves de este canal, conectamos a huéspedes con anfitriones habilitando los huéspedes a reservar en cualquiera de los servicios mencionados, desde y hacia cualquier lugar alrededor del mundo a la distancia de un clic.
 
 ## Try the app
-The application is hosted in a free tier account on AWS. If the links are broken please let us know by reporting an issue.
->La aplicación esta hosteada en una cuenta gratuita de AWS. Si los links estan rotos por favor dejanos saber reportando un issue.
+The front-end application is hosted on GitHub pages. If the content is not rendering may be caused by a stopped back-end.
+The back-end application is hosted in a free tier account on AWS. If the links are broken please **let me know** by reporting an issue.
+>La aplicacion front-end esta alojada en GitHub pages. Si el contenido no se está renderizando puede ser causado por detencion del back-end. La aplicación back-end esta alojada en una cuenta gratuita de AWS. Si los links estan rotos por favor **dejame saber** reportando un issue.
 
 **Front-end app**
 
+[DigitalBooking](https://jorgsierra.github.io/DigitalBooking/)
+
 **Back-end documentation**
+
 
 # Tech stack
 - Project management: GitLab issues and boards.
