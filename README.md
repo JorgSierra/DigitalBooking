@@ -18,6 +18,7 @@ NOTE:
 **Front-end app**
 
 [GitHub Pages - DigitalBooking](https://jorgsierra.github.io/DigitalBooking/)
+
 [Academic deploy - DigitalBooking](http://equipo10-digitalbooking-frontend.s3-website.us-east-2.amazonaws.com/)
 
 **Back-end documentation**
