@@ -2,11 +2,13 @@ import axios from "axios";
 import { isTokenExpired, tokenLogOut } from "../utils/utils";
 
 
-//'http://3.145.94.168/api'
-//"http://localhost:8090/api"
+//'http://3.145.94.168'
+//"http://localhost:8090"
 //Creates a new instance of axios with customized URL to connect the api and a timeout
+const URL = "http://localhost:8090"
+
 const apiWithoutToken = axios.create({
-    baseURL: "http://3.145.94.168/",
+    baseURL: URL,
     timeout: 10000,
     headers: {
         'Content-Type': 'application/json'
@@ -59,7 +61,7 @@ export async function getDataWithToken(path, setData) {
         const parsed = JSON.parse(jwtToken) // get JWT token from local storage
         if (jwtToken) {
             const apiWithToken = axios.create({
-                baseURL: "http://3.145.94.168/",
+                baseURL: URL,
                 timeout: 10000,
                 headers: {
                     "Content-Type": "application/json",
@@ -155,7 +157,7 @@ export async function postDataWithToken(path, body) {
         const jwtToken = localStorage.getItem('jwt');
         const parsed = JSON.parse(jwtToken);
         const apiWithToken = axios.create({
-            baseURL: "http://3.145.94.168/",
+            baseURL: URL,
             timeout: 10000,
             headers: {
                 "Content-Type": "application/json",
@@ -207,7 +209,7 @@ export async function postDataWithTokenAndNoBody(path) {
         const jwtToken = localStorage.getItem('jwt');
         const parsed = JSON.parse(jwtToken);
         const apiWithToken = axios.create({
-            baseURL: "http://3.145.94.168/",
+            baseURL: URL,
             timeout: 10000,
             headers: {
                 "Content-Type": "application/json",
@@ -261,7 +263,7 @@ export async function deleteDataWithTokenAndNoBody(path) {
         const jwtToken = localStorage.getItem('jwt');
         const parsed = JSON.parse(jwtToken);
         const apiWithTokenDelete = axios.create({
-            baseURL: "http://3.145.94.168/",
+            baseURL: URL,
             timeout: 10000,
             headers: {
                 "Authorization": `Bearer ${parsed}`,
@@ -312,7 +314,7 @@ export async function editDataWithToken(path, body) {
         const jwtToken = localStorage.getItem('jwt');
         const parsed = JSON.parse(jwtToken);
         const apiWithToken = axios.create({
-            baseURL: "http://3.145.94.168/",
+            baseURL: URL,
             timeout: 10000,
             headers: {
                 "Content-Type": "application/json",
