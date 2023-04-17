@@ -12,11 +12,13 @@ The back-end application is hosted in a free tier account on AWS. If the links a
 >La aplicacion front-end esta alojada en GitHub pages. Si el contenido no se está renderizando puede ser causado por detencion del back-end. La aplicación back-end esta alojada en una cuenta gratuita de AWS. Si los links estan rotos por favor **dejame saber** reportando un issue.
 
 NOTE: 
-- For now the app is running in a academic Digital House (DH) AWS account and is to be deprecated when the DH decides to delete the project.
+- Right now the app is running in a academic Digital House (DH) AWS account and is to be deprecated when the DH decides to delete the project.
 - The front-end application in GitHub Pages is not fetching data form the back-end due to lack of implementation of HTTPS (Working on It!)
 
-**Source code**
-The code is in the [develop branch](https://github.com/JorgSierra/DigitalBooking/tree/develop)
+>- Por el momento la aplicacion está en una cuenta de AWS de Digital House (DH) la cual será deprecada cuando DH decida borrar el projecto.
+>- La aplicación font-end en GitHub Pages no esta obteniendo data del back-end ya que no esta implementado HTTPS (En progreso!)
+
+**Source code** is in the [develop branch](https://github.com/JorgSierra/DigitalBooking/tree/develop)
 
 **Front-end app**
 
