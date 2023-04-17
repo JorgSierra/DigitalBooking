@@ -1,0 +1,77 @@
+stages:
+  #Following maven lifecicle order
+  - test
+  - build
+  - deploy
+
+
+test:
+  stage: test
+  image:  node:current-alpine3.17
+  before_script:
+    #Update system and instal ssh client
+    - apk update && apk add --update nodejs npm && apk add --update npm
+  script:
+    - echo "Running unit tests... This will take some time"
+    - cd front
+    - npm i
+    #Run test
+    #falta comando para correr test
+    - echo "Unit test Done."
+  artifacts:
+    paths:
+    #Create instalation modules
+      - front/node_modules
+    expire_in: 1 day
+
+build:
+  stage: build
+  image:  node:current-alpine3.17
+  before_script:
+    #Update system and instal ssh client
+    - apk update && apk add --update nodejs npm && apk add --update npm
+  script:
+    - echo "Compiling the code... This will take some time"
+    - cd front
+    #Create package
+    - npm run build
+    - echo "Compiling Done."
+  artifacts:
+    paths:
+    #Create compiled artifact
+      - front/dist
+    expire_in: 1 day
+
+deploy:
+  stage: deploy
+  image: alpine:3.11
+  before_script:
+    #Update system and instal ssh client
+    - apk update && apk add openssh-client
+    #Create .ssh directory to add config
+    - mkdir -p ~/.ssh
+    #Create ssh config file
+    - touch ~/.ssh/config
+    #Config ssh client to not ask for confirmation
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+    #Confirm key and add instance as a known host
+    - ssh-keyscan -H $INSTANCE_IP >> ~/.ssh/known_hosts
+    #Change INSTANCE_PRIVATE_KEY MODE
+    - chmod 400 $INSTANCE_PRIVATE_KEY
+    #Connect to instance and list current directory "Test connection"
+    - ssh -i $INSTANCE_PRIVATE_KEY $INSTANCE_USER@$INSTANCE_IP ls
+    
+  script:
+    - echo "Deploying application..."
+    #Copy created artifact to instance
+    - scp -i $INSTANCE_PRIVATE_KEY -r front/dist $INSTANCE_USER@$INSTANCE_IP:/home/ubuntu/
+    # Verificar si AWS CLI esta instado
+    - ssh -i $INSTANCE_PRIVATE_KEY $INSTANCE_USER@$INSTANCE_IP "aws s3 rm s3://equipo10-digitalbooking-frontend/assets --recursive"
+    - ssh -i $INSTANCE_PRIVATE_KEY $INSTANCE_USER@$INSTANCE_IP "aws s3 rm s3://equipo10-digitalbooking-frontend/index.html"
+    - ssh -i $INSTANCE_PRIVATE_KEY $INSTANCE_USER@$INSTANCE_IP "aws s3 rm s3://equipo10-digitalbooking-frontend/vite.svg"
+    - ssh -i $INSTANCE_PRIVATE_KEY $INSTANCE_USER@$INSTANCE_IP "aws s3 cp dist/assets s3://equipo10-digitalbooking-frontend/assets --recursive"
+    - ssh -i $INSTANCE_PRIVATE_KEY $INSTANCE_USER@$INSTANCE_IP "aws s3 cp dist/index.html s3://equipo10-digitalbooking-frontend/"
+    - ssh -i $INSTANCE_PRIVATE_KEY $INSTANCE_USER@$INSTANCE_IP "aws s3 cp dist/vite.svg s3://equipo10-digitalbooking-frontend/"
+    - echo "Application successfully deployed."
+
+
