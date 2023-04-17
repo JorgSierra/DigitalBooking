@@ -39,4 +39,4 @@ The static content was deployed to an AWS S3 bucket. This repo is deploying the 
 2. Upgraded Spring Security implementation from deprecated <code>WebSecurityConfigurerAdapter</code>. (Working on it!)
 3. Spring Boot version updated from <code>2.7.8</code> to <code>3.0.5</code>.
 4. New controller implementations.
-5. When a ROLE_USER sent a request asking for other users' resources an exception error was sent as a response. Now, when a ROLE_USER sends a request, it is forced to only request for its resources.
+5. When a ROLE_USER sent a request asking for other users' resources an exception **error** was sent as a response. Now, when a ROLE_USER sends a request is **modified** to get only its resources.
