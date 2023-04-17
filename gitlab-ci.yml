@@ -1,0 +1,68 @@
+stages:
+  #Following maven lifecicle order
+  - test
+  - build
+  - deploy
+
+test:
+  stage: test
+  image:  maven:3.8.3-openjdk-17
+  script:
+    - echo "Running unit tests... This will take some time"
+    - cd digital_booking_back
+    #Run maven test
+    - mvn clean test
+    - echo "Unit test Done."
+
+build:
+  stage: build
+  image:  maven:3.8.3-openjdk-17
+  script:
+    - echo "Compiling the code... This will take some time"
+    - cd digital_booking_back
+    #Create package
+    - mvn clean package
+    - cp target/digital_booking_back-0.0.1-SNAPSHOT.jar ../digital_booking_back-$CI_COMMIT_SHA.jar
+    - echo "Compiling Done."
+  artifacts:
+    paths:
+    #Create compiled artifact
+      - digital_booking_back-${CI_COMMIT_SHA}.jar
+    expire_in: 1 day
+
+deploy:
+  stage: deploy
+  image: alpine:3.11
+  before_script:
+    #Update system and instal ssh client
+    - apk update && apk add openssh-client
+    #Create .ssh directory to add config
+    - mkdir -p ~/.ssh
+    #Create ssh config file
+    - touch ~/.ssh/config
+    #Config ssh client to not ask for confirmation
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+    #Confirm key and add instance as a known host
+    - ssh-keyscan -H $INSTANCE_IP >> ~/.ssh/known_hosts
+    #Change INSTANCE_PRIVATE_KEY MODE
+    - chmod 400 $INSTANCE_PRIVATE_KEY
+    #Connect to instance and list current directory "Test connection"
+    - ssh -i $INSTANCE_PRIVATE_KEY $INSTANCE_USER@$INSTANCE_IP ls
+    
+  script:
+    - echo "Deploying application..."
+    #Copy created artifact to instance
+    - scp -i $INSTANCE_PRIVATE_KEY digital_booking_back-${CI_COMMIT_SHA}.jar $INSTANCE_USER@$INSTANCE_IP:/home/ubuntu/back_package.jar
+    - cd digital_booking_back/EC2-files
+    #Give permission to docker installation script
+    - chmod u+x checkDockerInstalation.sh
+    - ./checkDockerInstalation.sh
+    #Update Dockerfile
+    - scp -i $INSTANCE_PRIVATE_KEY Dockerfile $INSTANCE_USER@$INSTANCE_IP:/home/ubuntu
+    #Update deploy script
+    - scp -i $INSTANCE_PRIVATE_KEY deployContainer.sh $INSTANCE_USER@$INSTANCE_IP:/home/ubuntu
+    #Give permission in instance to deploy script
+    - ssh -i $INSTANCE_PRIVATE_KEY $INSTANCE_USER@$INSTANCE_IP "chmod u+x deployContainer.sh"
+    #Run deploy container in instance
+    - ssh -i $INSTANCE_PRIVATE_KEY $INSTANCE_USER@$INSTANCE_IP "./deployContainer.sh"
+    - echo "Application successfully deployed."
