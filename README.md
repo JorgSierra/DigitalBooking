@@ -15,6 +15,9 @@ NOTE:
 - For now the app is running in a academic Digital House (DH) AWS account and is to be deprecated when the DH decides to delete the project.
 - The front-end application in GitHub Pages is not fetching data form the back-end due to lack of implementation of HTTPS (Working on It!)
 
+**Source code**
+The code is in the [develop branch](https://github.com/JorgSierra/DigitalBooking/tree/develop)
+
 **Front-end app**
 
 [GitHub Pages - DigitalBooking](https://jorgsierra.github.io/DigitalBooking/)
