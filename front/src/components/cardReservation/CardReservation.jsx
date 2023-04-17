@@ -37,6 +37,7 @@ const CardReservation = ({ dataProductDetails, values }) => {
       dataProductDetails.longitud,
       setAdress
     );
+    //setAdress(dataProductDetails.direccion)
     setShowMoreText(false);
   }, []);
 
@@ -46,7 +47,10 @@ const CardReservation = ({ dataProductDetails, values }) => {
     setStarRatingIconString(createStarRatingString(numberRating));
   }, [numberRating]);
 
-  useEffect(() => {
+  useEffect(() => { 
+    if (!adress) {
+        setAdress("Sin dirección")
+    }
     textShortener(adress, setShortAdress, 80, styles.description, styles.mas);
   }, [adress]);
 

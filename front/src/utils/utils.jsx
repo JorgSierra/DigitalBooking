@@ -101,7 +101,7 @@ export function getDirectionFromCoordinates(latitude, longitude, set, event) {
 
 
 // Takes a string and makes it shorter, will also add a "más..." at the end if the string becomes shorter
-export function textShortener(originalDescription, set, maxChar, classText, classMas, classBreak) {
+export function textShortener(originalDescription, set, maxChar, classText, classMas, classBreak = null) {
     const longWordRegex = /\b\w{20,}\b/g;
     if (originalDescription) {
         let maxCharText = maxChar;

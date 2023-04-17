@@ -50,9 +50,26 @@ const BlockReservation = () => {
 
     const navigate = useNavigate();
 
+    const getReserves = async () => {
+        try {
+            const response = await getData(urls, setDatas);
+            if (response && response.status === 200) {
+                //console.log("exito")
+            } 
+        } catch (error) {
+            if (error.message === 'User not authorized') {
+                //console.log(error.message)
+                console.clear()
+            } else if (error.message === 'Not found') {
+                console.clear()
+                //console.log(error.message)
+            }
+        }
+    };
+
     useEffect(() => {
         getData(endpoint, setDataProductDetails);
-        getData(urls, setDatas);
+        getReserves()
         getData(endpoint, setDataProductDetails);
         const token = JSON.parse(localStorage.getItem("jwt"));
         setToken(token);
