@@ -12,9 +12,9 @@ The back-end application is hosted in a free tier account on AWS managed by the 
 >La aplicacion front-end esta alojada en GitHub pages. Si el contenido no se está renderizando puede ser causado por detencion del back-end. La aplicación back-end esta alojada en una cuenta gratuita de AWS administrada por la institución academica.
 
 NOTE: 
-- Right now the app is running in a academic Digital House (DH) AWS account and is to be deprecated when the DH decides to delete the project.
+- App is running in an academic Digital House (DH) AWS account and is to be deprecated when the DH decides to delete the project.
 
->- Por el momento la aplicacion está en una cuenta de AWS de Digital House (DH) la cual será deprecada cuando DH decida borrar el projecto.
+>- La aplicacion está en una cuenta de AWS de Digital House (DH) la cual será deprecada cuando DH decida borrar el projecto.
 
 **Source code** is in the [develop branch](https://github.com/JorgSierra/DigitalBooking/tree/develop)
 
