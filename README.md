@@ -42,5 +42,5 @@ NOTE:
 		- Frontend : React testing library y Jest; API Testing:Postman y Swagger.
 
 # Wiki
-Visit our [WIKI](https://github.com/JorgSierra/DigitalBooking/wiki) to learn more about this project.
->Visita nuestra [WIKI](https://github.com/JorgSierra/DigitalBooking/wiki) para saber mas de este projecto.
+Visit our [WIKI](https://github.com/JorgSierra/DigitalBooking/wiki/WIKI) to learn more about this project.
+>Visita nuestra [WIKI](https://github.com/JorgSierra/DigitalBooking/wiki/WIKI) para saber mas de este projecto.
