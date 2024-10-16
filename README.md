@@ -4,7 +4,7 @@ There are some differences between the project developed during the course and t
 
 ## Front-end
 
-The static content was deployed to an AWS S3 bucket. This repo is deploying the <code>Vite+React</code> app to GitHub pages (unlimited FREE) using the following strategy:
+In the original project, the static content was deployed to an AWS S3 bucket. This repo is deploying the <code>Vite+React</code> app to GitHub pages (unlimited FREE) using the following strategy:
 
 1. Install the <code>gh-pages</code> package:
 
