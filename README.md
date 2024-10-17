@@ -1,20 +1,20 @@
 # <img src="https://github.com/JorgSierra/DigitalBooking/blob/b21791907d00586d65085946aef8260db7c00b51/src/logoDb.png"  width="65" height="50"> DigitalBooking
 
-This project consisted of applying all the tools learned through the Digital House's course: Certified Tech Developer (CTD). For the development stages of this project, the Scrum framework was the backbone guiding the process, where every team member contributed with their strong skills in the areas needed.
+This project involved applying all the tools learned through the Digital House's Certified Tech Developer (CTD) course. For the development stages, the Scrum framework was the backbone guiding the process, and every team member contributed with their strong skills in the needed areas.
 
 This **web application** offers an online reservation service for hotels, apartments, hostels, and  B&B. Through this channel, we connect guests with hosts enabling the guest to reserve any of the mentioned services from anywhere to everywhere around the work at a click distance.
 
 >Este proyecto consistió en aplicar todas las herramientas aprendidas a lo largo del curso Certified Tech Developer (CTD) de Digital House. Para las etapas de desarrollo de este proyecto, fue utilizado Scrum como marco de trabajo y eje central guiando el proceso, donde todos los miembros del equipo contribuyeron con sus habilidades más fuertes en las áreas donde fueron necesitadas. Esta **aplicación web** ofrece un servicio de reservas online para hoteles, apartamentos, hostels y B&B. Atreves de este canal, conectamos a huéspedes con anfitriones habilitando los huéspedes a reservar en cualquiera de los servicios mencionados, desde y hacia cualquier lugar alrededor del mundo a la distancia de un clic.
 
 ## Try the app
-The front-end application is hosted on GitHub pages. If the content is not rendering may be caused by a stopped back-end.
-The back-end application is hosted in a free tier account on AWS managed by the academic institution.
->La aplicacion front-end esta alojada en GitHub pages. Si el contenido no se está renderizando puede ser causado por detencion del back-end. La aplicación back-end esta alojada en una cuenta gratuita de AWS administrada por la institución academica.
+The front-end application is hosted on GitHub pages. If the content is not rendering could be caused by a stopped back-end.
+The back-end application is hosted on AWS services managed by the academic institution.
+>La aplicacion front-end esta alojada en GitHub pages. Si el contenido no se está renderizando puede ser causado por detencion del back-end. La aplicación back-end esta alojada en una cuenta de AWS administrada por la institución academica.
 
 NOTE: 
-- App is running in an academic Digital House (DH) AWS account and is to be deprecated when the DH decides to delete the project.
+- The application runs within the academic Digital House (DH) AWS environment and will be decommissioned upon the DH's decision to terminate the project.
 
->- La aplicacion está en una cuenta de AWS de Digital House (DH) la cual será deprecada cuando DH decida borrar el projecto.
+>- La aplicacion está en una cuenta de AWS de Digital House (DH) la cual será borrada cuando DH decida borrar el projecto.
 
 **Source code** is in the [develop branch](https://github.com/JorgSierra/DigitalBooking/tree/develop)
 
@@ -36,10 +36,10 @@ NOTE:
 	- Front-end: Vite + React.
 	- Back End: Spring Boot, Lombok, OpenApi 3, JWT, Security, SMTP Gmail.
 	- Database: MySQL.
-	- Cloud achitecture: VPC, S3, RDS, Docker, CI/CD Gitlab.
+	- Cloud architecture: VPC, S3, RDS, Docker, CI/CD Gitlab.
 	- Testing: 
 		- Backend: Junit5 y Mockito; 
-		- Frontend : React testing library y Jest; API Testing:Postman y Swagger.
+		- Frontend: React testing library y Jest; API Testing: Postman y Swagger.
 
 # Wiki
 Visit our [WIKI](https://github.com/JorgSierra/DigitalBooking/wiki/WIKI) to learn more about this project.
