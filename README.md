@@ -4,7 +4,7 @@ There are some differences between the project developed during the course and t
 
 ## Front-end
 
-In the original project, the static content was deployed to an AWS S3 bucket. This repo is deploying the <code>Vite+React</code> app to GitHub pages (unlimited FREE) using the following strategy:
+In the original project, the static content was hosted by an AWS S3 bucket. This repo deploys the <code>Vite+React</code> app to GitHub pages (unlimited FREE) using the following strategy:
 
 1. Install the <code>gh-pages</code> package:
 
@@ -35,10 +35,7 @@ In the original project, the static content was deployed to an AWS S3 bucket. Th
 
 ## Back-end
 
-1. Thanks to using GitHub pages that use HTTPS and avoid Mixed Content HTTPS must be implemented on the back-end. (Working on it!)
-2. Upgraded Spring Security implementation from deprecated <code>WebSecurityConfigurerAdapter</code>. (Working on it!)
-3. Spring Boot version updated from <code>2.7.8</code> to <code>3.0.5</code>.
-4. New controller implementations.
-5. When a ROLE_USER sent a request asking for other users' resources an exception **error** was sent as a response. Now, when a ROLE_USER sends a request is **modified** to get only its resources.
-6. Exeption handling of:
+1. New controller implementations.
+2. When a ROLE_USER sent a request asking for other users' resources an exception **error** was sent as a response. Now, when a ROLE_USER sends a request is **modified** to get only its resources.
+3. Exception handling of:
     - Repeated names on tipolitica
