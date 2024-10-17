@@ -2,7 +2,7 @@
 
 The GitLab workflow for organizing the project is illustrated in the diagram below, with backEnd and frontEnd branches having independent pipelines for integration and continuous deployment.
 
-In this branch, the pipeline from the course project is included for **reference purposes** only and will not be utilized, as deployment is managed by GitHub Pages, with static content hosted on the **gh-pages** branch [gh-pages](https://github.com/JorgSierra/DigitalBooking/tree/gh-pages).
+In this branch, the pipeline from the course project is included for **reference purposes** only and will not be utilized, as deployment is managed by GitHub Pages, with static content hosted on the **[gh-pages](https://github.com/JorgSierra/DigitalBooking/tree/gh-pages)** branch.
 
 
 >El flujo de trabajo utilizado en GitLab para llevar el proyecto de manera organizada se muestra en el siguiente diagrama, 
