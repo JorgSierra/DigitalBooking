@@ -1,14 +1,15 @@
 # <img src="https://github.com/JorgSierra/DigitalBooking/blob/b21791907d00586d65085946aef8260db7c00b51/src/logoDb.png"  width="65" height="50"> DigitalBooking
 
-This project involved applying all the tools learned through the Digital House's Certified Tech Developer (CTD) course. For the development stages, the Scrum framework was the backbone guiding the process, and every team member contributed with their strong skills in the needed areas.
+This project was an exciting opportunity to apply the tools and techniques we learned in the Digital House's Certified Tech Developer (CTD) course. We followed the Scrum framework to streamline our development process, and each team member brought their unique skills to the table.
 
-This **web application** offers an online reservation service for hotels, apartments, hostels, and  B&B. Through this channel, we connect guests with hosts enabling the guest to reserve any of the mentioned services from anywhere to everywhere around the work at a click distance.
+Our **web application** provides a seamless online reservation service for hotels, apartments, hostels, and B&Bs. By connecting guests with hosts, we enable users to easily book their ideal accommodations from anywhere in the world with just a click.
 
 >Este proyecto consistió en aplicar todas las herramientas aprendidas a lo largo del curso Certified Tech Developer (CTD) de Digital House. Para las etapas de desarrollo de este proyecto, fue utilizado Scrum como marco de trabajo y eje central guiando el proceso, donde todos los miembros del equipo contribuyeron con sus habilidades más fuertes en las áreas donde fueron necesitadas. Esta **aplicación web** ofrece un servicio de reservas online para hoteles, apartamentos, hostels y B&B. Atreves de este canal, conectamos a huéspedes con anfitriones habilitando los huéspedes a reservar en cualquiera de los servicios mencionados, desde y hacia cualquier lugar alrededor del mundo a la distancia de un clic.
 
 ## Try the app
 The front-end application is hosted on GitHub pages. If the content is not rendering could be caused by a stopped back-end.
 The back-end application is hosted on AWS services managed by the academic institution.
+
 >La aplicacion front-end esta alojada en GitHub pages. Si el contenido no se está renderizando puede ser causado por detencion del back-end. La aplicación back-end esta alojada en una cuenta de AWS administrada por la institución academica.
 
 NOTE: 
