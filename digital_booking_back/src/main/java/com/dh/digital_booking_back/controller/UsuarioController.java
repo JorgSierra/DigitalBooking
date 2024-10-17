@@ -1,9 +1,6 @@
 package com.dh.digital_booking_back.controller;
 
-import com.dh.digital_booking_back.exception.BadRequestException;
-import com.dh.digital_booking_back.exception.ResourceNotFoundException;
-import com.dh.digital_booking_back.exception.UnauthorizedException;
-import com.dh.digital_booking_back.exception.ExistException;
+import com.dh.digital_booking_back.exception.*;
 import com.dh.digital_booking_back.model.DTO.*;
 import com.dh.digital_booking_back.model.Usuario;
 import com.dh.digital_booking_back.security.jwt.JwtUtil;
@@ -114,10 +111,11 @@ public class UsuarioController {
                     content = {@Content(mediaType = "application/json",
                     schema = @Schema(implementation = Usuario.class))}),
             @ApiResponse(responseCode = "400", description = "Error en request recibido.", content = @Content),
-            @ApiResponse(responseCode = "409", description = "El usuario que intentó registrar tiene un correo ya registrado.", content = @Content)
+            @ApiResponse(responseCode = "409", description = "El usuario que intentó registrar tiene un correo ya registrado.", content = @Content),
+            @ApiResponse(responseCode = "503", description = "Verificar configuracion email del servidor.", content = @Content)
     })
     @PostMapping
-    public ResponseEntity<Usuario> agregarUsuario(@RequestBody UsuarioDTO usuarioDTO) throws ResourceNotFoundException, BadRequestException, ExistException, MessagingException, UnsupportedEncodingException {
+    public ResponseEntity<Usuario> agregarUsuario(@RequestBody UsuarioDTO usuarioDTO) throws ResourceNotFoundException, BadRequestException, ExistException, MessagingException, UnsupportedEncodingException, ServiceUnavailable {
         usuarioDTO.setRol(2L);
         return new ResponseEntity<>(usuarioService.registrarUsuario(usuarioDTO), HttpStatus.CREATED);
     }
@@ -128,10 +126,11 @@ public class UsuarioController {
                     content = {@Content(mediaType = "application/json",
                             schema = @Schema(implementation = Usuario.class))}),
             @ApiResponse(responseCode = "400", description = "Error en request recibido.", content = @Content),
-            @ApiResponse(responseCode = "409", description = "El usuario que intentó registrar tiene un correo ya registrado.", content = @Content)
+            @ApiResponse(responseCode = "409", description = "El usuario que intentó registrar tiene un correo ya registrado.", content = @Content),
+            @ApiResponse(responseCode = "503", description = "Verificar configuracion email del servidor.", content = @Content)
     })
     @PostMapping("/admin")
-    public ResponseEntity<Usuario> agregarAdmin(@RequestBody UsuarioDTO usuarioDTO) throws ResourceNotFoundException, BadRequestException, ExistException, MessagingException, UnsupportedEncodingException {
+    public ResponseEntity<Usuario> agregarAdmin(@RequestBody UsuarioDTO usuarioDTO) throws ResourceNotFoundException, BadRequestException, ExistException, MessagingException, UnsupportedEncodingException, ServiceUnavailable {
         return new ResponseEntity<>(usuarioService.registrarUsuario(usuarioDTO), HttpStatus.CREATED);
     }
 

@@ -32,4 +32,9 @@ public class GlobalException{
         return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(e.getMessage());
     }
 
+    @ExceptionHandler({ServiceUnavailable.class})
+    public ResponseEntity<String> handleServiceUnavailable (ServiceUnavailable e){
+        //LOGGER.error("TOKEN EXPIRED: " + e.getMessage());
+        return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).body(e.getMessage());
+    }
 }

@@ -3,6 +3,7 @@ package com.dh.digital_booking_back.service;
 import com.dh.digital_booking_back.exception.BadRequestException;
 import com.dh.digital_booking_back.exception.ResourceNotFoundException;
 import com.dh.digital_booking_back.exception.ExistException;
+import com.dh.digital_booking_back.exception.ServiceUnavailable;
 import com.dh.digital_booking_back.model.*;
 import com.dh.digital_booking_back.model.DTO.UsuarioDTO;
 import com.dh.digital_booking_back.model.DTO.UsuarioDTOedit;
@@ -99,7 +100,7 @@ public class UsuarioService implements IUsuarioRepository, UserDetailsService {
     }
 
     @Override
-    public Usuario registrarUsuario(UsuarioDTO usuarioDTO) throws BadRequestException, ResourceNotFoundException, ExistException, MessagingException, UnsupportedEncodingException {
+    public Usuario registrarUsuario(UsuarioDTO usuarioDTO) throws BadRequestException, ResourceNotFoundException, ExistException, MessagingException, UnsupportedEncodingException, ServiceUnavailable {
         try {
             buscarUsuarioXemail(usuarioDTO.getEmail());
         }
@@ -112,7 +113,13 @@ public class UsuarioService implements IUsuarioRepository, UserDetailsService {
             catch (Exception ex){
                 throw new BadRequestException("El request recibido no tiene el formato correcto.");
             }
-            eviarEmailVerificacion(usuarioGuardado);
+            try {
+                enviarEmailVerificacion(usuarioGuardado);
+            }
+            catch (Exception exx) {
+                usuarioRepository.deleteById(usuarioGuardado.getId());
+                throw new ServiceUnavailable("Verificar configuracion email del servidor.");
+            }
             return usuarioGuardado;
         }
         throw new ExistException("El usuario con email " + usuarioDTO.getEmail() + " que intentó registrar ya existe.");
@@ -196,7 +203,7 @@ public class UsuarioService implements IUsuarioRepository, UserDetailsService {
         }
 
     }
-    public void eviarEmailVerificacion(Usuario usuario) throws MessagingException, UnsupportedEncodingException {
+    public void enviarEmailVerificacion(Usuario usuario) throws MessagingException, UnsupportedEncodingException {
 
         String toAddress = usuario.getEmail();
         String fromAddress = digitalBookingEmail;
